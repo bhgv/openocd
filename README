@@ -20,6 +20,17 @@ how to change GPIO pins used for jtag/swd:
 ------------------------------------------
 edit *tcl/interface/sysfsgpio-raspberrypi.cfg*
 
+how to use:
+-----------
+this is a good article - *http://log2.ch/2014/stm32-and-jtag-via-raspberry/*
+
+changes to call string in the article:
+```
+sudo openocd -f interface/sysfsgpio-raspberrypi.cfg -f target/stm32f1x.cfg
+```
+
+stm32flash from that article - *https://sourceforge.net/p/stm32flash/wiki/Home/*
+
 
 
 Welcome to OpenOCD!
