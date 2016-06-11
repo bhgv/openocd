@@ -1,3 +1,27 @@
+this fork
+=========
+
+using with Orange Pi 2 GPIO
+
+files changed:
+-------------
+1. src/jtag/drivers/sysfsgpio.c
+2. tcl/interface/sysfsgpio-raspberrypi.cfg
+
+how to build:
+------------
+```
+$ ./my_configure.sh
+$ make
+$ sudo make install
+```
+
+how to change GPIO pins used for jtag/swd:
+------------------------------------------
+edit *tcl/interface/sysfsgpio-raspberrypi.cfg*
+
+
+
 Welcome to OpenOCD!
 ===================
 
